@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
-import router from "./routes/user-routes.js";
-import vlogRouter from "./routes/vlog-routes.js";
+import router from "./routes/user-routes";
+import vlogRouter from "./routes/vlog-routes";
 import cors from "cors";
 import dotenv from "dotenv";
 
